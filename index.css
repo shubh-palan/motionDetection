@@ -1,0 +1,194 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: rgba(0,0,255,.4);
+    background-position: center;
+}
+#score-div{
+    position: absolute;
+    top:20%;
+    left:10%;
+    font-size: 25px;
+    background:white;
+    color: #454545;
+    padding: 15px;
+}
+
+#score-div p{
+    height: 20px;
+}
+.container{
+   width: 40%;
+   height: 100vh;
+   left:35%;
+   background: #333333;
+   overflow: hidden;
+   position: relative; 
+}
+.line{
+    width:4%;
+    height: 30vh;
+    background: white;
+    position: absolute;
+    left: 48%;
+}
+#line-1{
+    top:-170px
+}
+#line-2{
+    top:170px
+}
+#line-3{
+    top:520px
+}
+
+.car{
+    position: absolute;
+    width:40px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px blink;
+}
+#car{
+    bottom:10%;
+    left:60%;
+    background: cornflowerblue;
+    border-radius: 10%;
+
+}
+.f-glass,
+.b-glass{
+    width: 60%;
+    height: 20%;
+    background: #484848;
+    position: absolute;
+    left:20%;
+}
+.f-glass{
+    margin-top:10px;
+    border-radius: 5px 5px 0 0;
+}
+.b-glass{
+    bottom: 10px;
+    border-radius: 0 0 5px 5px ;
+}
+.f-light-l,
+.f-light-r
+{
+    position: absolute;
+    width:20%;
+    height: 10%;
+    background: #efefef;
+    top: -6%;
+    margin-left:10%;
+    border-radius: 5px 5px 0 0;
+
+}
+.f-light-r{
+    margin-left: 70%;
+}
+
+.f-tyre-l,
+.f-tyre-r,
+.b-tyre-l,
+.b-tyre-r{
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    background: grey;
+}
+.f-tyre-l{
+    top:20%;
+    left:-10%;
+    border-radius: 5px 5px 0 0;
+}
+.f-tyre-r{
+    top:20%;
+    left:100%;
+    border-radius: 0 5px 5px  0;
+}
+.b-tyre-l{
+    bottom:10%;
+    left:-10%;
+    border-radius: 5px 5px 0 0;
+}
+.b-tyre-r{
+    bottom:10%;
+    left:100%;
+    border-radius: 0 5px 5px  0;
+}
+#car-1{
+top: -100%;
+left:60%;
+background: green;
+}
+#car-2{
+top: -200%;
+left:40%;
+background: red;
+}
+#car-3{
+top: -350%;
+left:45%;
+background: black;
+}
+#restart-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:black;
+    line-height: 100vh;
+    display: none;
+}
+#restart{
+    display: block;
+    width: 50%;
+    height: 80px;
+    background: #8a64ff;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    margin-left: 25%;
+    margin-top: 50%;
+}
+
+#pause-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:black;
+    line-height: 100vh;
+    opacity: 0.3;
+    display: none;
+}
+#pause{
+    display: block;
+    width: 30%;
+    height: 200px;
+    background: #8a64ff;
+    color: black;
+    font-size: 125px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    margin-left: 35%;
+    margin-top: 70%;
+}
+
+.canvas{
+    height: 100px;
+    width: 100px;
+}
+.left{
+    position: absolute;
+    top:0;
+    left:0;
+    background: chocolate;
+
+}

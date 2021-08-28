@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Car racing </title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="motion.css">
+    </head>
+    
+    <body>
+        <!-- ######MOTION CONTROLS###### -->
+        <video id="video" width="1450" height="960" autoplay muted></video>
+        <canvas id="canvas1"></canvas>
+        <canvas id="canvas2"></canvas>
+        <canvas id="canvas"></canvas>
+        <div id="test">test</div>
+        <!-- ######GAME###### -->
+        <div id="score-div">
+            <span>score:</span>
+            <span id="score">0</span>
+        </div>
+        <div class="container">
+        <div class="line" id="line-1"></div>
+        <div class="line" id="line-2"></div>
+        <div class="line" id="line-3"></div>
+
+        <div class="car" id="car">
+            <div class="f-glass"></div>
+            <div class="f-light-l"></div>
+            <div class="f-light-r"></div>
+            <div class="f-tyre-l"></div>
+            <div class="f-tyre-r"></div>
+            <div class="b-glass"></div>
+            <div class="b-tyre-l"></div>
+            <div class="b-tyre-r"></div>
+        </div>
+        <div class="car" id="car-1">
+            <div class="f-glass"></div>
+            <div class="f-light-l"></div>
+            <div class="f-light-r"></div>
+            <div class="f-tyre-l"></div>
+            <div class="f-tyre-r"></div>
+            <div class="b-glass"></div>
+            <div class="b-tyre-l"></div>
+            <div class="b-tyre-r"></div>
+        </div>
+        <div class="car" id="car-2">
+            <div class="f-glass"></div>
+            <div class="f-light-l"></div>
+            <div class="f-light-r"></div>
+            <div class="f-tyre-l"></div>
+            <div class="f-tyre-r"></div>
+            <div class="b-glass"></div>
+            <div class="b-tyre-l"></div>
+            <div class="b-tyre-r"></div>
+        </div>
+        <div class="car" id="car-3">
+            <div class="f-glass"></div>
+            <div class="f-light-l"></div>
+            <div class="f-light-r"></div>
+            <div class="f-tyre-l"></div>
+            <div class="f-tyre-r"></div>
+            <div class="b-glass"></div>
+            <div class="b-tyre-l"></div>
+            <div class="b-tyre-r"></div>
+        </div>
+        <div id="restart-div">
+            <button id="restart">
+                click to restart
+            </button>
+        </div>
+        <div id="pause-div">
+            <button id="pause">
+               ||
+            </button>
+        </div>
+    </div>
+        <script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <!-- <script src="motionsenser.js"></script> -->
+    </body>
+</html>

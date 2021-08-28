@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    
+}
+#test{
+    position: absolute;
+    left:100px;
+    top:70px;
+    z-index:10;
+    color: red;
+}
+video{
+    position: absolute;
+    top:100;
+    left: 100;
+    z-index: -1;
+    visibility: hidden;
+
+}
+#texts{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: red;
+    font-size: large;
+    z-index: 5;
+
+}
+
+canvas{
+    /* position: absolute; */
+	position: absolute;
+			top:0px;
+			left: 00px;
+
+}
+
+#canvas1{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 3px;
+    height: 150px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgba(255,255,255,0.5);
+
+}
+
+#canvas2{
+    z-index: 1;
+    border-style: solid;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    border-width: 3px;
+    height: 150px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 5px;
+    /* float: right; */
+    background-color: rgba(255,255,255,0.5);
+
+}
